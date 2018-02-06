@@ -5,7 +5,7 @@
  * @author Kameko Yamanaka
  * @version 2.1.17
  */
-public abstract class Vehicle
+public abstract class Vehicle implements BasicCar //superclass
 {
     int seats;
     double speed;
