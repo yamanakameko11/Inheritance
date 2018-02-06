@@ -5,7 +5,7 @@
  * @author Kameko Yamanaka
  * @version 2.1.18
  */
-public class Car extends Vehicle
+public class Car extends Vehicle implements BasicCar //always extend THEN implement
 {
     // things a car HAS
     int wheels;
@@ -37,5 +37,9 @@ public class Car extends Vehicle
         } else{
             System.out.println("The engine is already off.");
         }
+    }
+    
+    public void honk(){
+        System.out.println("Quack!");
     }
 }

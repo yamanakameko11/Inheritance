@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Vehicle here.
+ * A category. Not a thing, but rather the concept, or base that defines other things.
  *
  * @author Kameko Yamanaka
  * @version 2.1.17
